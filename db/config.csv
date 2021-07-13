@@ -1,0 +1,11 @@
+ch_description,en_description,field_list
+項目表,projects,"['_id','name','description','update','user_id']"
+用戶表,users,"['_id','name','password','worknumber', 'role_id']"
+角色表,roles,"['_id','name','project_id']"
+標籤表,labels,"['_id','name','project_id','color']"
+關係表,relations,"['_id','name', 'description']"
+進度表,rates,"['_id','rate','user_id','project_id']"
+項目詳情表,before_mark,"['_id','project_id','content']"
+項目詳情表,after_mark,"['_id','project_id','content','marker_labels','marker_relations','marker_userid']"
+項目詳情表,after_inspect,"['_id','project_id','content','marker_labels','marker_relations','marker_userid','inspector_labels','inspector_relations','inspector_userid','argument']"
+項目詳情表,after_review,"['_id','project_id','content','marker_labels','marker_relations','marker_userid','inspector_labels','inspector_relations','inspector_userid','argument','reviewer_labels','reviewer_relations','reviewer_userid']"
